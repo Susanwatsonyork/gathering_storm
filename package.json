@@ -1,0 +1,24 @@
+{
+  "name": "gathering_storm",
+  "version": "1.0.0",
+  "description": "An application to help social scientists to collate and analyze social interactions during a Twitter storm",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test"
+  },
+  "keywords": [
+    "twitter",
+    "storm"
+  ],
+  "author": "Susan Watson",
+  "license": "GNU GENERAL PUBLIC LICENSE version 3",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "fast-csv": "2.4.1",
+    "moment": "^2.24.0",
+    "natural": "^0.6.3",
+    "simple-statistics": "^7.0.8",
+    "twit": "^2.2.11"
+  }
+}
